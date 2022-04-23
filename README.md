@@ -1,3 +1,3 @@
-# 🌞SPRING🌞🌞
+# 🌞SPRING🌞
 ## spring study
 + spring introduction
