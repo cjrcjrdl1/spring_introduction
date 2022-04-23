@@ -13,11 +13,12 @@ import java.util.List;
 @Controller
 public class MemberController {
 
-    private final MemberService memberService;
+    private MemberService memberService;
 
     @Autowired
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
+        System.out.println("memberService = " + memberService.getClass());
     }
 
     @GetMapping("/members/new")
